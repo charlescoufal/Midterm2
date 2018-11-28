@@ -1,0 +1,17 @@
+@model MathOperationModel
+
+
+<form asp-controller="Math" asp-action="ShowCalculationResults" method = "POST">
+
+  Left Operand:<br>
+  <input type="text" asp-for=@Model.LeftOperand >
+  <br>
+  Right Operand:<br>
+  <input type="text" asp-for=@Model.RightOperand >
+  <br>
+  Operator:<br>
+  <input type="text" asp-for=@Model.Operator >
+  <br>
+  
+  <input type="submit" value="Submit">
+</form>

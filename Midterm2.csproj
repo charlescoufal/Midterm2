@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MathLibrary">
+      <hintpath>C:\Users\charl\Documents\CIDM3312\Midterm2\MathLibrary.dll</hintpath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
